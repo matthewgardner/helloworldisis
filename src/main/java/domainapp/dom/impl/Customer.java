@@ -97,7 +97,7 @@ public class Customer  implements Comparable<Customer>{
     	childrenOrders.add(order);
     	
     	messageService.informUser(String.format("'%s' placed Order", order));
-    	repositoryService.persist(order);]
+    	repositoryService.persist(order);
     	return this;
     	
     }
